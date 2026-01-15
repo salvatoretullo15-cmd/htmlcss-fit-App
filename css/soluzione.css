@@ -1,0 +1,97 @@
+/*richiesta numero non funziona l'icon 1*/
+
+/*richiesta numero 2*/
+
+.stats-container > .stats-grid:last-child > .stat-label,
+.stats-container > .stats-grid:last-child > .stat-number{
+    color: white ;
+}
+
+.stats-grid:nth-child(3){
+    background:linear-gradient(to right, rgb(70, 24, 161), rgba( 238, 130, 238, 0.436));
+}
+
+/*richiesta numero 3*/
+
+.stats-grid:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+/*richiesta numero 4*/
+
+.workout-section>.workout-plan:nth-child(3){
+    border-left: solid 5px orange;
+    background-color: rgb(243, 226, 194);
+}
+
+/*richiesta numero 5*/
+
+.exercise-item:first-child,
+.exercise-item:last-child{
+    border-color: green;
+}
+
+/*richiesta numero non funziona l'icon 6*/
+
+
+/*richiesta numero 7-8*/
+.goal-input-group input:focus,
+.goal-input-group select:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 0px 0px 0px 2px blue;
+
+}
+
+/*richiesta numero 9*/
+
+.save-btn:hover{
+    box-shadow: 2px 2px 2px blue;
+}
+
+/*richiesta numero 10*/
+.progress-bar{
+    position: relative;
+}
+.progress-fill::after{
+    content:"65%";
+    color:white;
+    position: absolute;
+    top:-40%;
+    left:70%;
+    text-align: center;
+    font-size: small;
+}
+
+/*richiesta numero 11-12*/
+.nav-footer a:hover{
+    color: blue;
+    background-color: #131a22;
+}
+
+[href="#home"] {
+    color:blue;
+    background-color: #131a22;
+}
+
+/*richiesta numero 13*/
+
+.quote-box{
+    position: relative;
+}
+.quote-box > p::before{
+    content:"\"";
+    position: absolute;
+    color: #ffffffc2;
+    font-size:xx-large;
+    left:0.5rem;
+    bottom:3rem
+}
+.quote-box > p::after{
+    content: "\"";
+    position: absolute;
+    color: #ffffffc2;
+    font-size:xx-large;
+    right:0.5rem;
+    top: 4rem;
+}
